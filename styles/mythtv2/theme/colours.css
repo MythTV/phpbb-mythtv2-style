@@ -90,9 +90,10 @@ a:hover { color: #D31141; }
 }
 
 .headerbar, .forumbg {
-	background-color: #12A3EB;
-	background-image: -webkit-linear-gradient(top, #6ACEFF 0%, #0076B1 2px, #12A3EB 92px, #12A3EB 100%);
-	background-image: linear-gradient(to bottom, #6ACEFF 0%,#0076B1 2px,#12A3EB 92px,#12A3EB 100%);
+	background-color: #000000;
+	background-image: -webkit-linear-gradient(to bottom, #444444 20%,#000000 100%);
+	background-image: linear-gradient(to bottom, #444444 20%,#000000 100%);
+    border-bottom: 2px #2D6489 solid;
 	background-repeat: repeat-x;
 }
 
@@ -149,7 +150,7 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 }
 
 .site_logo {
-	background-image: url("./images/site_logo.gif");
+	background-image: url("./images/mythtv.png");
 }
 
 /* Horizontal lists
