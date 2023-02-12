@@ -5,7 +5,7 @@ Colours and backgrounds for common.css
 
 html, body {
 	color: #536482;
-	background-color: #F5F7FA;
+	background-color: #87A0BB;
 }
 
 h1 {
@@ -81,8 +81,11 @@ a:hover { color: #D31141; }
 /* Round cornered boxes and backgrounds
 ---------------------------------------- */
 .wrap {
-	background-color: #FFF;
+	background-color: #E6E6F0;
 	border-color: #E6E9ED;
+	border-radius: 10px;
+	border-top: 1px solid #868C97;
+	border-left: 1px solid #868C97;
 }
 
 .headerbar {
@@ -99,8 +102,8 @@ a:hover { color: #D31141; }
 
 .forabg {
 	background-color: #0076B1;
-	background-image: -webkit-linear-gradient(top, #6ACEFF 0%, #12A3EB 2px, #0076B1 92px, #0076B1 100%);
-	background-image: linear-gradient(to bottom, #6ACEFF 0%,#12A3EB 2px,#0076B1 92px,#0076B1 100%);
+	background-image: -webkit-linear-gradient(top, #7295AF 0%, #004570 20px);
+	background-image: linear-gradient(to bottom, #7295AF 0%, #004570 20px);
 	background-repeat: repeat-x;
 }
 
